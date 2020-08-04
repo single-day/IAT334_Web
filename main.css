@@ -1,1 +1,76 @@
 
+p,h3,h2,h1{
+  font-family: 'Noto Sans', sans-serif;
+  color: #333333;
+  /* padding: none;
+  margin: none; */
+}
+
+img{
+max-width: 100%;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo p{
+  padding-left: 0.1rem;
+  margin: 0.3rem;
+  color: rgba(57, 169, 142, 1);
+  font-size: 25px;
+  font-style: bold;
+}
+
+.logo img{
+  /* max-height: 100%; */
+  object-fit: contain;
+}
+
+.logo{
+  display: flex;
+}
+
+.menu{
+  display: flex;
+}
+
+.menu p{
+margin-right: 1rem;
+}
+
+.bleed{
+  position: relative;
+ text-align: center;
+ color: white;
+}
+
+.bleed_content{
+  position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+
+}
+
+.bleed_content h3{
+font-size: 2rem;
+ color: white;
+
+}
+
+.bleed_content p{
+  font-size: 1.5rem;
+   color: white;
+}
+
+#about{
+  padding: 5rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.benefit{
+  display: flex;
+}
